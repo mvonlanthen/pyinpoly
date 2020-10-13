@@ -1,0 +1,18 @@
+[package]
+name = "pyinpoly"
+version = "0.4.0"
+authors = ["mvonlanthen"]
+edition = "2018"
+
+[lib]
+name = "pyinpoly"
+crate-type = ["cdylib"]
+
+[dependencies]
+numpy = "0.12"
+ndarray = "0.13"
+inpolygon = { path = "../inpolygon" }
+
+[dependencies.pyo3]
+version = "0.12"
+features = ["extension-module"]
