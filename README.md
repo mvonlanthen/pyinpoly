@@ -75,7 +75,7 @@ print('Rust exec time (serial):   {:.06f}s'.format(toc-tic))
 ## Installation
 
 ### Install with Python wheel
-1. Download the latest wheel here
+1. Download the latest wheel [here](https://github.com/mvonlanthen/pyinpoly/releases)
 2. install with
 ```bash
 pip install pyinpoly-0.4.0-cp38-cp38-manylinux1_x86_64.whl
