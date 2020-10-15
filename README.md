@@ -1,5 +1,5 @@
 # pyinpoly
-Compute whether a given point in the plane lies inside, outside, or on the boundary of a polygon. This package use the [ray casting algorithm](https://en.wikipedia.org/wiki/Point_in_polygon). To imporve execution speed, the algorithm is written in Rust. The pure Python version is also available, mostly for benchmark purposes.
+Compute whether a given point in the plane lies inside, outside, or on the boundary of a polygon. This package use the [ray casting algorithm](https://en.wikipedia.org/wiki/Point_in_polygon). To improve execution speed, the algorithm is written in Rust. The pure Python version is also available, mostly for benchmark purposes.
 
 ## Examples
 Toy example
